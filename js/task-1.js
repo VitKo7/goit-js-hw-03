@@ -8,13 +8,8 @@ const user = {
 };
 
 user.mood = 'happy';
-// console.log(user);
-
 user.hobby = 'skydiving';
-// console.log(user);
-
 user.premium = 'false';
-// console.log(user);
 
 const keys = Object.keys(user);
 for (const key of keys) {

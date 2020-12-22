@@ -11,9 +11,7 @@ const countTotalSalary = function (employees) {
   return totalSalary;
 };
 
-/*
- * Вызовы функции для проверки работоспособности твоей реализации.
- */
+// Вызовы функции для проверки работоспособности твоей реализации.
 console.log(countTotalSalary({})); // 0
 
 console.log(
