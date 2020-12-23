@@ -1,11 +1,16 @@
 'use strict';
 
 const findBestEmployee = function (employees) {
-  for (let employee in employees) {
-    const values = Object.values(employees);
-    const keys = Object.keys(employees);
-    return keys[values.indexOf(Math.max(...values))];
+  let num = 0;
+  let bestEmployee = '';
+
+  for (let key in employees) {
+    if (employees[key] > num) {
+      bestEmployee = key;
+    }
   }
+
+  return bestEmployee;
 };
 
 //Вызовы функции для проверки работоспособности твоей реализации.
